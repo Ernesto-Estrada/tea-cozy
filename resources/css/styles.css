@@ -1,0 +1,105 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.container-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 69px;
+}
+
+.logo {
+    display: inline-flex;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.nav {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: underline;
+}
+
+.container-mission {
+    display: flex;
+    height: 700px;
+    width: 1200px;
+    margin: 69px auto 0 auto;
+    background-image: url('/home/ernesto/Projects/tea-cozy/resources/images/img-mission-background.webp');
+    align-items: center;
+    justify-content: center;
+}
+
+.mission-content {
+    background-color: black;
+    z-index: 1;
+    width: 100%;
+}
+
+.container-month {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.month-images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.image {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.main-locations {
+    background-image: url("/home/ernesto/Projects/tea-cozy/resources/images/img-locations-background.jpg");
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.container-locations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.location {
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+}
+
+.main-contact {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+
+footer {
+    text-align: left;
+    margin-left: 20px;
+}
+
