@@ -16,6 +16,8 @@ body {
     top: 0;
     width: 100%;
     height: 69px;
+    z-index: 1;
+    margin: 0;
 }
 
 .logo {
@@ -77,20 +79,27 @@ ul {
     width: 1200px;
     height: 500px;
     margin: 0 auto;
+    text-align: center;
 }
 
-.container-locations {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: center;
+.location-title {
+    text-align: center;
 }
 
 .location {
     width: 300px;
     background-color: black;
     opacity: 1;
+    text-align: center;
+    display: inline-block;
+    margin-top: 15px;
 }
+
+.mid {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
 
 .main-contact {
     display: flex;
